@@ -9,8 +9,8 @@
 | Hypothesis | KPI | Statistical test | *p*-value | Decision |
 |------------|-----|------------------|-----------|----------|
 | No risk difference across provinces | Claim frequency | Chi-squared (2×2) | ≈ 0.019 | **Reject H₀** |
-| No risk difference between zip codes (matched: Gauteng, Passenger Vehicle, 2000 vs 122) | Claim frequency | Chi-squared (2×2) | ≈ 0.82 | Fail to reject H₀ |
-| No margin difference between the same zip codes | Margin (policy sums) | Welch *t*-test | ≈ 0.53 | Fail to reject H₀ |
+| No risk difference between zip codes (matched: Gauteng, Passenger Vehicle, 2000 vs 122) | Claim frequency | Chi-squared (2×2) | ≈ 0.94 | Fail to reject H₀ |
+| No margin difference between the same zip codes | Margin (policy sums) | Welch *t*-test | ≈ 0.55 | Fail to reject H₀ |
 | No risk difference between women and men | Claim frequency | Chi-squared (2×2) | ≈ 0.32 | Fail to reject H₀ |
 
 *Exact numeric outputs may differ slightly by environment; re-run `notebooks/02_hypothesis_testing.ipynb` or `run_hypothesis_suite(load_insurance_data())`.*
